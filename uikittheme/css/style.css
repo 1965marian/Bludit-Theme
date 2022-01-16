@@ -1,0 +1,42 @@
+
+
+a{
+	text-decoration: none!important;
+}
+h1, h2{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+h2:hover{
+    text-shadow: 1px 1px 1px black;
+}
+.uk-img{
+	transition-duration: 2s;
+}
+.uk-navbar-container{
+	transition: background-color 0.5s ease;
+  }
+ .social img{
+	 color: black!important;
+	 font-size: 10px;
+	 width: 3rem;
+	 height: auto;
+	 background-color: rgba(0, 82, 235, 0.507);
+	 transition-duration: 0.5s;
+ }
+ .social img:hover{
+	 box-shadow:2px 2px 2px black;
+	 width: 3.5rem;
+	 height: auto;
+	 border-radius: 50%;
+	 
+ }
+ .uk-img:hover{
+	filter: blur(2px);
+  -webkit-filter: blur(2px);
+ }
+
+ #particles-js{
+	
+	background-image: linear-gradient(white 50%, black);
+  }
